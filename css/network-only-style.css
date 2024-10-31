@@ -1,0 +1,78 @@
+/**
+ * Stylesheet
+ * 
+ * @plugin Network Only Plugins Tab
+ */
+
+#nopt_config_tr, #nopt_config_tr td {
+    padding: 0;
+}
+
+#nopt_config_row {
+    margin: 10px 15px 20px 12px;
+    padding: 12px;
+    -moz-box-shadow: -3px 3px 5px 3px #E4E4E4;
+    -webkit-box-shadow: -3px 3px 5px 3px #E4E4E4;
+    box-shadow: -3px 3px 5px 3px #E4E4E4;
+}
+
+.config_hidden {
+    display: none;
+}
+
+#nopt-message{
+    display: none;
+    padding: 13px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#network-only-plugins-tab th, 
+#network-only-plugins-tab td, 
+#plugins-exclusivos-para-red th, 
+#plugins-exclusivos-para-red td, 
+#plugins-exclusivos-de-rede th, 
+#plugins-exclusivos-de-rede td, 
+#nopt-tr-settings th, 
+#nopt-tr-settings td {
+    border-bottom: none;
+    border-bottom: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#nopt-tr-settings th {
+    padding: 0 0 8px;
+}
+#nopt-tr-settings td {
+    padding: 0;
+}
+
+.nopt-table th, .nopt-table td {
+    border-bottom: none;
+}
+
+.nopt-table th {
+    vertical-align: top;
+}
+
+.nopt-table td {
+    vertical-align: middle;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.nopt-table tr{
+    height: 57px;
+}
+
+.nopt-icon {
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    vertical-align: middle;
+}
